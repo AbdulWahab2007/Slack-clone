@@ -1,0 +1,153 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.first-screen {
+  width: 100%;
+  height: 95vh;
+  background-color: #541554;
+}
+.nav-bar {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 89px;
+}
+.left-logos {
+  display: flex;
+}
+.left-logos > a {
+  color: white;
+  padding: 15px;
+  position: relative;
+  left: 55px;
+  font-family: 'Poppins', sans-serif;
+  font-size: larger;
+}
+.slack {
+  color: white;
+}
+.left-logos > a :hover {
+  text-decoration: underline;
+}
+.right-logos {
+  display: flex;
+  justify-content: flex-end;
+}
+.right-logos > a {
+  color: white;
+  padding: 15px;
+  position: relative;
+  right: -160px;
+  font-family: 'Poppins', sans-serif;
+}
+.sign-in:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.talk-to-sales {
+  border: 2px solid white;
+  border-radius: 7px;
+  text-align: center;
+}
+.try-for-free {
+  color: #541554;
+  position: relative;
+  right: -175px;
+  font-family: 'Poppins', sans-serif;
+  
+  border-radius: 7px;
+  background-color: white;
+}
+.first-container {
+  display: flex;
+  flex-direction: column;
+}
+.top-heading {
+  padding: 40px;
+  font-size: 60px;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+}
+.text {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  top: -120px;
+  padding: 50px;
+  font-size: 23px;
+}
+.yellow-text {
+  color: yellow;
+  font-family: 'Montserrat', sans-serif;
+}
+.norm-text {
+  color: white;
+  position: relative;
+  left: 10px;
+  font-family: 'Montserrat', sans-serif;
+}
+.sign-up {
+  display: flex;
+  position: relative;
+  bottom: 170px;
+  left: 40px;
+}
+.google {
+  margin: 10;
+  border: 0px;
+  border-radius: 5px;
+  font-size: 20px;
+  display: flex;
+  width: 300px;
+  height: 70px;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: #00a1ff;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+.g-logo {
+  margin: 10;
+  background-color: white;
+  width: 50px;
+  height: 50px;
+}
+.e-mail {
+  margin: 10;
+  border: 0px;
+  border-radius: 5px;
+  font-size: 20px;
+  display: flex;
+  width: 300px;
+  height: 70px;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  color: #541554;
+  font-family: 'Montserrat', sans-serif;
+}
+.intro-video {
+  width: 600px;
+  position: relative;
+  bottom: 530px;
+  left: 730px;
+}
+.second-screen {
+  width: 100%;
+  height: 700px;
+  background-color: #f2eee4;
+  position: relative;
+  bottom: 20px;
+}
+.t-sites-h {
+  position: relative;
+  left: 400px;
+  padding: 50;
+  font-family: 'Montserrat', sans-serif;
+}
+.sites-logo {
+  position: relative;
+  left: 170px;
+  top: -50px;
+}
